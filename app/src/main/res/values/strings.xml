@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">firestore</string>
+    <string name="name_example">Digite seu nome</string>
+    <string name="address_example">Digite seu endereço</string>
+    <string name="district_example">Digite seu bairro</string>
+    <string name="cep_example">Digite seu cep</string>
+    <string name="bsubmit">Enviar</string>
+</resources>

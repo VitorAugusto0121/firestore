@@ -28,7 +28,8 @@ class MainActivity : AppCompatActivity() {
                 "cep" to cepEdit.toString()
             )
             db.collection("users").add(user)
-                .addOnSuccessListener { Log.d(TAG, "DocumentSnapshot successfully written!") }
+                .addOnSuccessListener { val toast = Toast.makeText(applicationContext, "Você se cadastrou!", Toast.LENGTH_LONG)
+                toast.show() }
                 .addOnFailureListener { e -> Log.w(TAG, "Error writing document", e) }
         }
     }
